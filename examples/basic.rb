@@ -13,7 +13,7 @@ end
 # with someone who doesn't even macro `unless` into their C code.
 #
 # So let's fix that. I think it should work most of the time
-include toostable
+include TooStable
 
 def array_search(array, value)
   usually(array.find(value)) { array.sample }
