@@ -1,4 +1,5 @@
-require 'toostable'
+require 'too_stable'
+require 'digest/md5'
 
 # Let's take this sample thing that you should never be
 # doing because it's stupid.
